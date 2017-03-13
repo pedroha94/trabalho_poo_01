@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <meta charset=utf-8>
+        <title>Ecolife</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css/style.css" rel="stylesheet" type="text/css" />
+        <link href="css/bootstrap-responsive.css" rel="stylesheet">
+        <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+    </head>
+
+    <body>
+        <header>
+            <div class="container">
+                <div class="menu">
+                    <a href="index.html" style="margin: 5px 112px 0px 30px;font-size: 30px;font-family: serif;">EcoLife</a>
+                    <a>home</a>
+                    <a href="quemsomos.html">Quem Somos</a>
+                    <a>Serviços</a>
+                    <a>Noticias</a>
+                    <a>contato</a>
+                </div>
+            </div>
+        </header>
+        <div style="height: 82px;"></div>
+
+        <div class="row-fluid">
+            <div class="span12">
+<div class="container"
+                <form  method="post" name="form_contato">
+                    <table class="left">
+                        <tbody><tr>
+                            <td><p>Nome:*</p></td>
+                             <td><p>Email:*</p></td>
+                        </tr>
+                        <tr>
+                            <td><input type="text" id="txt_nome" name="txt_nome" class="txt_medio" style="margin-right:15px"></td>
+                            <td>
+                            <input type="text" id="txt_email" name="txt_email" class="txt_medio">
+                            <input type="text" value="" name="email_" style="display:none;">
+                            </td>
+                          
+                        </tr>
+                        <tr>
+                            <td><p>Telefone:*</p></td>
+                             <td><p>Celular:</p></td>
+                        </tr>
+                        <tr>
+                            <td><input type="text" id="txt_telefone" name="txt_telefone" class="txt_medio" onkeypress="return MascaraTel(this, '(99) 9999-9999', event);" maxlength="14" style="margin-right:15px"></td>
+                            <td><input type="text" id="txt_celular" name="txt_celular" class="txt_medio" onkeypress="return MascaraTel(this, '(99) 99999-9999', event);" maxlength="15"></td>
+                          
+                        </tr>
+                        <tr>
+                            <td colspan="2"><p>Assunto:*</p></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2"><input type="text" id="txt_assunto" name="txt_assunto" class="txt_grande"></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2"><p>Mensagem:*</p></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2"><textarea id="txt_mensagem" name="txt_mensagem" class="txt_area"></textarea></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2"><input type="submit" value="Enviar" class="botao right cor_padrao">
+                            <input type="reset" value="Limpar" class="botao right cor_padrao" style="margin-right:-12px;"></td>
+                        </tr>
+                    </tbody></table>
+    </form>
+</div>
+            </div>
+        </div>
+
+        <script src="http://code.jquery.com/jquery-latest.js"></script>
+        <script src="js/bootstrap.min.js" type="text/javascript"></script>
+    </body>
+
+    <footer>
+        <div class="container">
+            <div class="menu">
+                <p>Todos os Direitos Reservados - 2016</p>
+            </div>
+        </div>
+    </footer>
+</html>
+
