@@ -10,9 +10,11 @@ and open the template in the editor.
 
 *{padding: 0;margin: 0 auto;}
 
-header{background-color: rgba(0, 128, 0, 0.58);width: 100%;float: left;height: 82px;position: fixed;}
+/*header{background-color: rgba(0, 128, 0, 0.58);width: 100%;float: left;height: 82px;position: fixed;}*/
+header{background-color: rgba(0, 128, 0, 0.58);width: 100%;float: left;height: 82px;margin-bottom: 20px;}
 
-body{margin: 0;}
+/*body{margin: 0;}*/
+body{height: 100%;}
 
 .clear{clear: both;}
 
@@ -34,6 +36,10 @@ body{margin: 0;}
 
 #qs_dir{margin-left: 24%}
 
+footer {padding: 15px 0px 15px 0px;
+background-color: rgba(0, 128, 0, 0.58);
+color: #FFFFFF;}
+
 /*Inínio Notícias*/
 /* Style the buttons that are used to open and close the accordion panel */
 button.accordion {
@@ -46,6 +52,7 @@ button.accordion {
     border: none;
     outline: none;
     transition: 0.4s;
+    font-size: 20px;
 }
 
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
