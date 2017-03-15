@@ -10,9 +10,13 @@ and open the template in the editor.
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="css/style.css" rel="stylesheet" type="text/css" />
-        
+
+
         <!-- Stylesheets -->
         <link rel="stylesheet" href="css/docs.theme.min.css">
+
+        <link href="css/bootstrap-responsive.css" rel="stylesheet">
+        <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
 
         <!-- Owl Stylesheets -->
         <link rel="stylesheet" href="owlcarousel/assets/owl.carousel.min.css">
@@ -23,7 +27,7 @@ and open the template in the editor.
         <script src="vendors/jquery.min.js"></script>
         <script src="owlcarousel/owl.carousel.js"></script>
     </head>
-    
+
     <body>
         <header>
             <div class="container">
@@ -39,94 +43,66 @@ and open the template in the editor.
         </header>
         <div style="height: 82px;"></div>
         <div class="container">
-        
+
             <section id="demos">
-      <div class="row">
-        <div class="large-12 columns">
-          <div class="owl-carousel owl-theme">
-            <div class="item">
-            <h4>
-              1
-              </h4>
-            </div>
-            <div class="item">
-            <h4>
-              2
-              </h4>
-            </div>
-            <div class="item">
-            <h4>
-              3
-              </h4>
-            </div>
-            <div class="item">
-            <h4>
-              4
-              </h4>
-            </div>
-            <div class="item">
-              <h4>5</h4>
-            </div>
-            <div class="item">
-              <h4>6</h4>
-            </div>
-            <div class="item">
-              <h4>7</h4>
-            </div>
-            <div class="item">
-              <h4>8</h4>
-            </div>
-            <div class="item">
-              <h4>9</h4>
-            </div>
-            <div class="item">
-              <h4>10</h4>
-            </div>
-            <div class="item">
-              <h4>11</h4>
-            </div>
-            <div class="item">
-              <h4>12</h4>
-            </div>
-          </div>
+                <div class="row">
+                    <div class="large-12 columns">
+                        <div class="owl-carousel owl-theme">
+                            <div>
+                                <img src="images/1.png">
+                            </div>
+                            <div>
+                                <img src="images/2.png">
+                            </div>
+                            <div>
+                                <img src="images/3.png">
+                            </div>
+                            <div>
+                                <img src="images/4.png">
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+            <p>
+                Fundada em 2017 procura agregar cada vez mais o conhecimento científico e a qualidade técnica à área da consultoria ambiental, sempre mantendo a ética nos trabalhos com atuação em diversas áreas. Atendemos os setores industriais, comerciais, empresas terceirizadas entre outros. Desenvolvemos serviços de atendimento a notificações ambientais em todo Brasil.
+            </p>
 
 
 
-          <script>
-            $(document).ready(function() {
-              var owl = $('.owl-carousel');
-              owl.owlCarousel({
-                margin: 10,
-                nav: true,
-                loop: true,
-                responsive: {
-                  0: {
-                    items: 1
-                  },
-                  600: {
-                    items: 3
-                  },
-                  1000: {
-                    items: 5
-                  }
-                }
-              })
-            })
-          </script>
         </div>
-      </div>
-    </section>
-        
-        
-        
-        </div>
-            
-    <footer>
-        <div class="container">
-            <div class="menu">
-                <p>Todos os Direitos Reservados - 2016</p>
-            </div>
-        </div>
-    </footer>
+
+        <footer>
+            <div class="container">
+                <div class="menu">
+                    <p style="color: #FFFFFF;">Todos os Direitos Reservados - 2016</p>
+                </div>
+            </div> 
+
+            <script>
+                $(document).ready(function () {
+                    var owl = $('.owl-carousel');
+                    owl.owlCarousel({
+                        margin: 10,
+                        nav: false,
+                        loop: true,
+                        responsive: {
+                            0: {
+                                items: 1
+                            },
+                            600: {
+                                items: 1
+                            },
+                            1000: {
+                                items: 1
+                            }
+                        }
+                    })
+                })
+            </script>
+        </footer>
     </body>
 </html>
