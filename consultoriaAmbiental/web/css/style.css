@@ -41,17 +41,40 @@ body{height: 100%;}
         width: 100%;
         height: 1080px;}
 
-.img_quemsomos{width: 40%}
+/*Início Quem Somos*/
+.qs_p{
+    font-size: 14px;
+    text-align: justify;
+    margin: 0%;
+}
 
-#qs_esq{margin-right: 40%}
+.qs_h1{
+    text-align: left;
+    margin: 0%;
+}
 
-#qs_dir{margin-left: 24%}
+.qs_center{
+    text-align: center;
+    margin: 0%;
+}
+.qs_pcenter{
+    font-size: 18px;
+    font-family: serif;
+    text-align: justify;
+    margin: 0%;
+}
+
+.img_qs{
+    width: 40%;
+    margin: 0%;
+}
+/*Fim Quem Somos*/
 
 footer {padding: 15px 0px 15px 0px;
         background-color: rgba(0, 128, 0, 0.58);
         color: #FFFFFF;}
 
-/*Inínio Notícias*/
+/*Início Notícias*/
 /* Style the buttons that are used to open and close the accordion panel */
 button.accordion {
     background-color: #eee;
