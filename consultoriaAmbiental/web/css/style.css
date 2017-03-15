@@ -16,6 +16,16 @@ header{background-color: rgba(0, 128, 0, 0.58);
         height: 82px;
         margin-bottom: 20px;}
 
+.lado1{
+    float: left;
+    width: 70%;
+}
+
+.lado2{
+    float: right;
+    width: 30%;
+}
+
 body{height: 100%;}
 
 .clear{clear: both;}
@@ -24,7 +34,7 @@ body{height: 100%;}
 
 .right{float: right;}
 
-.container {width: 1170px;}
+.container {width: 1170px;} 
 
 .menu{width: 100%;
         text-align: center;
@@ -115,3 +125,12 @@ button.accordion.active:after {
     content: "\2796"; /* Unicode character for "minus" sign (-) */
 }
 /*Fim Notícias*/
+.icone{
+   vertical-align: middle;
+}
+
+.footer{
+        position:absolute;
+	bottom:0;
+	width:100%;
+}
